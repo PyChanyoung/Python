@@ -1,0 +1,5 @@
+CharStatus = input().split()
+ValueOfstatus = list(map(float,input().split()))
+# print(ValueOfstatus)
+character = dict(zip(CharStatus,ValueOfstatus))
+print(character)
